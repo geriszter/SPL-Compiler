@@ -1,0 +1,380 @@
+--17/11/2022-----------------------------------------------------
+Lexical Tokens for a.spl 
+-- 4:53:25.58----------------------------------------------------- 
+Identifier: ProgA Token: identifier_key
+Token: COLON
+Token: CODE
+Token: WRITE
+Token: OPEN_BRACKET
+Char: 'h' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'e' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'o' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier: ProgA Token: identifier_key
+Token: PERIOD
+--17/11/2022----------------------------------------------------- 
+Lexical Tokens for b.spl 
+-- 4:53:27.00----------------------------------------------------- 
+Identifier: ProgB Token: identifier_key
+Token: COLON
+Token: DECLARATIONS
+Identifier: a Token: identifier_key
+Token: COMMA
+Identifier: b Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: INTEGER
+Token: SEMICOLON
+Identifier: c Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: CHARACTER
+Token: SEMICOLON
+Identifier: d Token: identifier_key
+Token: COMMA
+Identifier: e Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: OPEN_BRACKET
+Identifier: a Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: READ
+Token: OPEN_BRACKET
+Identifier: b Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: IF
+Identifier: a Token: identifier_key
+Token: GREATER_THAN
+Identifier: b Token: identifier_key
+Token: THEN
+Token: WRITE
+Token: OPEN_BRACKET
+Char: 'A' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: ELSE
+Token: WRITE
+Token: OPEN_BRACKET
+Char: 'B' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: ENDIF
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: OPEN_BRACKET
+Identifier: d Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: d Token: identifier_key
+Token: TIMES
+Float: 2.300000 Token: FLOAT_NUM
+Token: ASSIGN
+Identifier: e Token: identifier_key
+Token: SEMICOLON
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: e Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: OPEN_BRACKET
+Identifier: c Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: c Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier: ProgB Token: identifier_key
+Token: PERIOD
+--17/11/2022----------------------------------------------------- 
+Lexical Tokens for c.spl 
+-- 4:53:27.49----------------------------------------------------- 
+Identifier: Prog3 Token: identifier_key
+Token: COLON
+Token: DECLARATIONS
+Identifier: a Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: FOR
+Identifier: a Token: identifier_key
+Token: IS
+Integer: 1 Token: INTERGER_NUM
+Token: BY
+Integer: 1 Token: INTERGER_NUM
+Token: TO
+Integer: 13 Token: INTERGER_NUM
+Token: DO
+Token: IF
+Token: NOT
+Identifier: a Token: identifier_key
+Token: EQUAL
+Integer: 7 Token: INTERGER_NUM
+Token: THEN
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: ENDFOR
+Token: SEMICOLON
+Integer: 0 Token: INTERGER_NUM
+Token: ASSIGN
+Identifier: a Token: identifier_key
+Token: SEMICOLON
+Token: DO
+Identifier: a Token: identifier_key
+Token: PLUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGN
+Identifier: a Token: identifier_key
+Token: SEMICOLON
+Token: IF
+Token: NOT
+Identifier: a Token: identifier_key
+Token: EQUAL
+Integer: 6 Token: INTERGER_NUM
+Token: AND
+Identifier: a Token: identifier_key
+Token: NOT_EQUAL
+Integer: 8 Token: INTERGER_NUM
+Token: THEN
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: WHILE
+Identifier: a Token: identifier_key
+Token: LESS_THAN
+Integer: 14 Token: INTERGER_NUM
+Token: ENDDO
+Token: SEMICOLON
+Integer: 0 Token: INTERGER_NUM
+Token: ASSIGN
+Identifier: a Token: identifier_key
+Token: SEMICOLON
+Token: WHILE
+Identifier: a Token: identifier_key
+Token: LESS_THAN
+Integer: 12 Token: INTERGER_NUM
+Token: DO
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: a Token: identifier_key
+Token: PLUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGN
+Identifier: a Token: identifier_key
+Token: ENDWHILE
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier: Prog3 Token: identifier_key
+Token: PERIOD
+--17/11/2022----------------------------------------------------- 
+Lexical Tokens for d.spl 
+-- 4:53:27.94----------------------------------------------------- 
+Identifier: Prog4D Token: identifier_key
+Token: COLON
+Token: DECLARATIONS
+Identifier: r1 Token: identifier_key
+Token: COMMA
+Identifier: r2 Token: identifier_key
+Token: COMMA
+Identifier: r3 Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: MINUS
+Float: 2.400000 Token: FLOAT_NUM
+Token: ASSIGN
+Identifier: r1 Token: identifier_key
+Token: SEMICOLON
+Token: MINUS
+Float: 34.989000 Token: FLOAT_NUM
+Token: ASSIGN
+Identifier: r2 Token: identifier_key
+Token: SEMICOLON
+Identifier: r1 Token: identifier_key
+Token: TIMES
+Identifier: r2 Token: identifier_key
+Token: DIVIDE
+Float: 7.400000 Token: FLOAT_NUM
+Token: ASSIGN
+Identifier: r3 Token: identifier_key
+Token: SEMICOLON
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: r3 Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: OPEN_BRACKET
+Identifier: r1 Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: r1 Token: identifier_key
+Token: PLUS
+Identifier: r3 Token: identifier_key
+Token: ASSIGN
+Identifier: r3 Token: identifier_key
+Token: SEMICOLON
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: r3 Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier: Prog4D Token: identifier_key
+Token: PERIOD
+--17/11/2022----------------------------------------------------- 
+Lexical Tokens for e.spl 
+-- 4:53:28.39----------------------------------------------------- 
+Identifier: ProgV Token: identifier_key
+Token: COLON
+Token: DECLARATIONS
+Identifier: integer Token: identifier_key
+Token: COMMA
+Identifier: i Token: identifier_key
+Token: OF
+Token: TYPE_KEY
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: OPEN_BRACKET
+Identifier: integer Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: IF
+Identifier: integer Token: identifier_key
+Token: LESS_THAN_OR_EQUAL
+Integer: 5 Token: INTERGER_NUM
+Token: OR
+Identifier: integer Token: identifier_key
+Token: GREATER_THAN_OR_EQUAL
+Integer: 12 Token: INTERGER_NUM
+Token: THEN
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: identifier_key
+Token: CLOSE_BRACKET
+Token: ENDIF
+Token: SEMICOLON
+Token: WRITE
+Token: OPEN_BRACKET
+Token: OPEN_BRACKET
+Integer: 36 Token: INTERGER_NUM
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: CLOSE_BRACKET
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: FOR
+Identifier: integer Token: identifier_key
+Token: IS
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: BY
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: TO
+Token: MINUS
+Integer: 5 Token: INTERGER_NUM
+Token: DO
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: SEMICOLON
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGN
+Identifier: i Token: identifier_key
+Token: SEMICOLON
+Token: FOR
+Identifier: integer Token: identifier_key
+Token: IS
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: BY
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TO
+Identifier: i Token: identifier_key
+Token: TIMES
+Identifier: i Token: identifier_key
+Token: TIMES
+Token: OPEN_BRACKET
+Identifier: i Token: identifier_key
+Token: PLUS
+Identifier: i Token: identifier_key
+Token: PLUS
+Identifier: i Token: identifier_key
+Token: PLUS
+Identifier: i Token: identifier_key
+Token: PLUS
+Identifier: i Token: identifier_key
+Token: CLOSE_BRACKET
+Token: DO
+Token: WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: identifier_key
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: ENDP
+Identifier: ProgV Token: identifier_key
+Token: PERIOD
